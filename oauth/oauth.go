@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/anfelo/bookstore_oauth-lib/utils/errors"
+	"github.com/anfelo/bookstore_utils/errors"
 	"github.com/go-resty/resty/v2"
 )
 
