@@ -24,8 +24,8 @@ var (
 
 type accessToken struct {
 	ID       string `json:"id"`
-	UserID   string `json:"user_id"`
-	ClientID string `json:"client_id"`
+	UserID   int64  `json:"user_id"`
+	ClientID int64  `json:"client_id"`
 }
 
 // IsPublic method checks if request is public
